@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org"
+xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity6" >
+<head>
+<meta charset="UTF-8">
+<title>View Book</title>
+</head>
+<body>
+	<h1 th:text="'Reviews for The ' + ${book.title} + ' by ' + ${book.author}"></h1>
+
+<div th:if="${#lists.isEmpty(reviews)}">No reviews yet. Be the
+		first to review it.
+</div>	
+<ul>
+    <li th:each="review : ${reviews}" th:text="${review}"></li>
+</ul>
+
+
+<div sec:authorize="isAuthenticated()">
+    <a th:href="@{/addReviewById/{id}(id=${book.id})}">Add a review</a>
+    <form method="post" th:action="@{/logout}" action="#">
+	    <input type="submit" value="LOGOUT">
+    </form>
+</div>
+
+ <div sec:authorize="isAnonymous()">
+        <p>Want to leave a review? <a href="/login" th:href="@{/login}">Login here</a></p>
+    </div>
+<p><a href="#" th:href="@{/}">Back To Index</a><p>
+
+</body>
+</html>
