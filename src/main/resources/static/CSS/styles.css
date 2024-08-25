@@ -1,1 +1,153 @@
 @charset "UTF-8";
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h1, h2, h4 {
+    color: #444;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Form Styles */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: auto;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form textarea {
+    width: calc(100% - 24px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+form input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+td a {
+    color: #007BFF;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: #e9ecef;
+    text-decoration: none;
+}
+
+td a:hover {
+    background-color: #d6d8db;
+}
+
+/* Header and Footer Styles */
+hr {
+    margin: 20px 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Alert Messages */
+.error {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.success {
+    color: green;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.logout {
+    color: #555;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
