@@ -51,36 +51,40 @@ To set up the project locally, follow these steps:
   
 3. **Run the application**:
 
--Ensure that your IDE is set up to run Spring Boot applications.
--Run the application by executing the BookController class or using the Spring Boot Dashboard.
+- Ensure that your IDE is set up to run Spring Boot applications.
+- Run the application by executing the BookController class or using the Spring Boot Dashboard.
 
 4. **Access the application**:
 
--Open your web browser and go to http://localhost:8080/.
+- Open your web browser and go to http://localhost:8080/.
 
 ## Usage
 **User Roles**
--**Admin User**: Can add books and view all available books and their reviews.
--**Standard User**: Can view books, view reviews, and add reviews.
-Endpoints
-/ - Main page listing all books.
-/login - Login page.
-/register - User registration page.
-/addBook - (Admin only) Add a new book.
-/ReviewsById/{id} - View details and reviews for a specific book.
-/addReviewById/{id} - Add a review for a specific book.
-Admin Credentials
-Email: padakshc@sheridancollege.ca
-Password: 1234
-User Credentials
-Email: shressud@sheridancollege.ca
-Password: 1111
-Demo
+- **Admin User**: Can add books and view all available books and their reviews.
+- **Standard User**: Can view books, view reviews, and add reviews.
+- 
+**Endpoints**
+- '/' - Main page listing all books.
+- '/login' - Login page.
+- '/register' - User registration page.
+- '/addBook' - (Admin only) Add a new book.
+- '/ReviewsById/{id}' - View details and reviews for a specific book.
+- '/addReviewById/{id}' - Add a review for a specific book.
+  
+**Admin Credentials**
+- Email: `padakshc@sheridancollege.ca`
+- Password: `1234`
+
+**User Credentials**
+- Email: `shressud@sheridancollege.ca`
+Password: `1111`
+
+**Demo**
 Here is a video demonstrating the application's features:
 
 
 
 Click the image above to watch the demo video on YouTube.
 
-License
+**License**
 This project is licensed under the MIT License - see the LICENSE file for details.
