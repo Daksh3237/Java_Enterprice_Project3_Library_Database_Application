@@ -62,7 +62,7 @@ To set up the project locally, follow these steps:
 **User Roles**
 - **Admin User**: Can add books and view all available books and their reviews.
 - **Standard User**: Can view books, view reviews, and add reviews.
-- 
+  
 **Endpoints**
 - '/' - Main page listing all books.
 - '/login' - Login page.
