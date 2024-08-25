@@ -44,20 +44,24 @@ To set up the project locally, follow these steps:
    ```bash
    git clone https://github.com/your-username/library-database.git
    cd library-database
-Import the project:
+   
+2. **Import the project**:
 
-Import the project into your favorite IDE as a Maven project.
-Run the application:
+- Import the project into your favorite IDE as a Maven project.
+  
+3. **Run the application**:
 
-Ensure that your IDE is set up to run Spring Boot applications.
-Run the application by executing the BookController class or using the Spring Boot Dashboard.
-Access the application:
+-Ensure that your IDE is set up to run Spring Boot applications.
+-Run the application by executing the BookController class or using the Spring Boot Dashboard.
 
-Open your web browser and go to http://localhost:8080/.
-Usage
-User Roles
-Admin User: Can add books and view all available books and their reviews.
-Standard User: Can view books, view reviews, and add reviews.
+4. **Access the application**:
+
+-Open your web browser and go to http://localhost:8080/.
+
+## Usage
+**User Roles**
+-**Admin User**: Can add books and view all available books and their reviews.
+-**Standard User**: Can view books, view reviews, and add reviews.
 Endpoints
 / - Main page listing all books.
 /login - Login page.
