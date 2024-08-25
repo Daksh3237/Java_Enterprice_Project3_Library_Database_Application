@@ -77,7 +77,7 @@ To set up the project locally, follow these steps:
 
 **User Credentials**
 - Email: `shressud@sheridancollege.ca`
-Password: `1111`
+- Password: `1111`
 
 **Demo**
 Here is a video demonstrating the application's features:
