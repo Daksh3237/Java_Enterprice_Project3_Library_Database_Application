@@ -79,12 +79,5 @@ To set up the project locally, follow these steps:
 - Email: `shressud@sheridancollege.ca`
 - Password: `1111`
 
-**Demo**
-Here is a video demonstrating the application's features:
-
-
-
-Click the image above to watch the demo video on YouTube.
-
 **License**
 This project is licensed under the MIT License - see the LICENSE file for details.
